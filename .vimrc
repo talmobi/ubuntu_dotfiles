@@ -43,6 +43,8 @@ filetype plugin indent on
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
-colorscheme desert
+colorscheme zellner
+colorscheme gruvbox
+set background=dark
 set cursorline
 hi CursorLine term=bold cterm=bold ctermbg=black
